@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 require('dotenv/config');
 
 const client = new Client({
-    intents: ['Guilds', 'GuildMembers', 'GuildMessages', 'MessageContent'],
+    intents: ['Guilds', 'GuildMembers', 'GuildMessages', 'MessageContent', 'GuildMessagePolls', 'GuildPresences'],
   });
   
   new CommandKit({
