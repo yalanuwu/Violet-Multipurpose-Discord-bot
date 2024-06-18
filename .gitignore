@@ -1,3 +1,6 @@
 .env
 /node_modules
 /src/commands/simulate-join.js
+discloud.config
+violet.zip
+.vscode
