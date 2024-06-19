@@ -44,7 +44,8 @@ npm install
 - Wait for all the dependencies to be installed
 - Rename `.example.env` to `.env` and fill the values
 
-- Type `npm run start` to start the bot
+- Type `nodemon` to start the bot
+- If you want to run the bot without nodemon type `node src/index.js`
 <br>
 
 <h2 id="depen">💁‍♂️ Dependencies</h2>
@@ -65,11 +66,31 @@ rss-parser
 
 <h2 id= "features" align="center"> ✨ Features ✨</h2>
 
-- The following commands are present as of now :
-
+**The following commands are present as of now :**
+### 🛑MODERATION
+ - **`ban` , `timeout`**
+### 👋WELCOME MEMBER
+ - **`setup-welcome-channel` , `remove-welcome-channel`**
+### 🎫SUGGESTION
+  - **`config-suggestions` , `suggest`**
+### ⚽MINIGAMES
+ - STONE PAPER SCISSORS  **`rps`**
+### 💹XP / RANKING SYSTEM
+ - **`level`**
+### 🔔NOTIFICATION SYSTEM
+ - YOUTUBE **`notification-setup`, `notification-remove`**
+ - TWITCH **`add-twitch-channel`, `remove-twitch-channel`**
+### 🔃AUTOROLE
+ - **`autorole-config`, `autorole-disable`**
+### MORE COMMANDS TO BE ADDED SOON
 
 <h2 id="conti" align="center"> 🤝 Contributing 🤝 </h2>
 
 - Special thanks to [@UnderCtrl](https://github.com/notunderctrl/) for the awesome [tutorials](https://youtu.be/KZ3tIGHU314?si=cPyJsYZVFzdJg7iX).
 - Feel free to [Fork](https://github.com/yalanuwu/Violet-Multipurpose-Discord-bot/fork) this repository, create a feature branch and submit a pull request
+
+<br>
+
+<h2> DEMO BOT </h2>
+<a href="https://discord.com/oauth2/authorize?client_id=1252513706051633153&permissions=8&integration_type=0&scope=bot+applications.commands"><img src="https://cdn3.emoji.gg/emojis/bottag.png" width="64px" height="64px" alt="VIOLET"></a>
 
