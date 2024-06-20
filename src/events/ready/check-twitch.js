@@ -23,7 +23,7 @@ module.exports = (client) => {
             if (!tempData.ChannelName) return;
     
             let StreamData = await Stream.getData(tempData.ChannelName, process.env.TWITCH_ID, configData.authToken);
-            console.log(StreamData);
+            // console.log(StreamData);
             if (StreamData.data.length == 0) continue;
     
             StreamData = StreamData.data[0];
